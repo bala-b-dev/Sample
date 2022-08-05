@@ -1,0 +1,23 @@
+package sanple;
+
+public class TryCatch {
+	
+	
+	public static void main(String[] args) {
+		
+		try
+		{
+			System.out.println(3/0);
+		}
+		
+		finally {
+			
+			System.out.println("error occured");
+		}
+		
+		
+		System.out.println("afer finally");
+		
+	}
+
+}
